@@ -8,9 +8,6 @@ import useStore from "@/lib/manage";
 import {
   Sheet,
   SheetContent,
-  SheetDescription,
-  SheetHeader,
-  SheetTitle,
   SheetTrigger,
 } from "@/components/ui/sheet";
 
@@ -49,13 +46,12 @@ const Navbar = () => {
           </span>
         </SheetTrigger>
         <SheetContent side="left">
-          
           <div className="w-full flex flex-col items-start my-10">
           <Link href="/" className="self-center -mt-10 mb-6">
             <img
               src="/logo.png"
               alt="logo"
-              className="w-32 h-20 object-contain object-center self-center"
+              className="w-48 h-24 object-cover object-center mt-8 self-center"
             />
           </Link>
             <div className="w-full relative">
@@ -111,7 +107,7 @@ const Navbar = () => {
         <img
           src="/logo.png"
           alt="logo"
-          className="w-32 h-16 object-contain object-center"
+          className="w-48 h-24 object-cover object-center mt-8"
         />
       </Link>
       <div className="max-md:hidden flex items-center gap-4 text-sm font-semibold uppercase">

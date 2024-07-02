@@ -74,7 +74,7 @@ const ContactPage = () => {
       <img
         src="/logo.png"
         alt="logo"
-        className="self-center w-56 h-52 object-contain object-center my-4"
+        className="self-center w-60 h-32 object-cover object-center mt-14"
       />
       
     </div>

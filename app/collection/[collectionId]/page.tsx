@@ -31,7 +31,7 @@ const CollectionPage = ({
           <Item key={item.id} item={item} />
         ))}
       </div>
-      <img src="/logo.png" alt="logo" className="self-center w-60 h-56 object-contain object-center my-4" />
+      <img src="/logo.png" alt="logo" className="self-center w-60 h-32 object-cover object-center mt-14" />
     </div>
   );
 };
